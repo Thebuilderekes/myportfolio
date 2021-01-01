@@ -321,9 +321,25 @@ body > .navbar-collapse a {
 svg {
   width: 80px;
   height: 80px;
- fill: rgb(235, 12, 49);
+ fill: rgb(246, 80, 177);
   margin-bottom: -30px;
 }
+
+
+.info-icon .icon .bootstrap-logo{
+    fill: rgb(161, 8, 161);
+    padding-bottom: 15px;
+}
+
+.info-icon .icon .javascript-logo{
+  fill: rgb(49, 32, 32);
+  padding-bottom: 15px;
+}
+.info-icon .icon .react-logo{
+  color:rgb(23, 177, 238);
+  padding-bottom: 15px;
+}
+
 .fa-html5::before {
 
   color: orangered;
@@ -1304,8 +1320,9 @@ a,
 }
 .navbar .navbar-brand {
   margin: 10px 0px;
-  padding: 15px 15px;
+  padding: 15px 0;
   font-size: 20px;
+  font-weight: 600;
   line-height: 22px;
 }
 .navbar .navbar-nav > li > a {
@@ -2683,9 +2700,7 @@ a,
     padding-right: 0;
     padding-left: 0;
   }
-  .section-we-made-1 .transition-1 {
-    /*     		transition: all 0.5s; */
-  }
+
 
   .section-we-made-2 .scroll-area {
     width: 70%;
