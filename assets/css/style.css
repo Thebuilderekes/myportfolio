@@ -332,6 +332,11 @@ svg {
     padding-bottom: 15px;
 }
 
+.info-icon .icon .html-logo{
+  padding-bottom: 15px;
+
+}
+
 .info-icon .icon .javascript-logo{
   fill: rgb(49, 32, 32);
   padding-bottom: 15px;
@@ -3778,7 +3783,7 @@ body {
 
 @media (min-width: 375px) {
   .info-icon .icon  .css3  {
-    margin-right: 50px;
+   
      
    }
 }
