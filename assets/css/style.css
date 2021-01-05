@@ -985,7 +985,7 @@ a,
 }
 
 .section {
-  padding: 50px 0;
+  padding: 20px 0;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -1597,9 +1597,9 @@ a,
   font-size: 15px;
   font-weight: bold;
 }
-.footer .btn-social {
+/* .footer .btn-social {
   color: #9A9A9A;
-}
+} */
 
 .footer:not(.footer-big) nav > ul {
   font-size: 16px;
@@ -1640,10 +1640,10 @@ a,
 .footer-transparent .social-area > a:not(.btn):focus {
   color: #777777;
 }
-.footer-color-black .btn-social,
+/* .footer-color-black .btn-social,
 .footer-transparent .btn-social {
   color: #FFFFFF;
-}
+} */
 .footer-color-black hr,
 .footer-transparent hr {
   border-color: #444444;
@@ -1752,16 +1752,35 @@ a,
 }
 
 .btn-social {
-  opacity: 0.85;
+  /* opacity: 0.85; */
   padding: 8px 9px;
+  display: flex;
 }
-.btn-social .fa {
-  font-size: 18px;
-  top: -1px;
+
+
+.btn-social .facebook-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  color: rgb(255, 243, 243);
   vertical-align: middle;
   display: inline-block;
   position: relative;
 }
+
+.btn-social .twitter-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
 .btn-social.btn-round {
   padding: 9px 10px;
 }
@@ -3781,9 +3800,9 @@ body {
   }
 }
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) {
   .info-icon .icon  .css3  {
    
      
    }
-}
+} */
